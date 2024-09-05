@@ -1,28 +1,77 @@
-section{
-  background-color: chocolate;
+header {
+  background-color: white;
+  height: 80px; 
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  font-family: copperplate, fantasy;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+h1{
+  color: rgb(176, 9, 9);
+  font-family: solid, copperplate, fantasy;
+  transition: 0.20s;
+}
+
+h1:hover{
+  text-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+  font-family: 'copperplate' fantasy;
+    color: rgb(14, 2, 2);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 img{
-  width: 300px;
-  margin: 30px 25px 20px 15px;
-  padding: 30px;
-  border: 3px solid red;
+  width: 200px;
+  margin: 10px 25px 20px 15px;
+  padding: 0.01px;
+  border: 3px solid, black;
 }
 
-.one{
-  background-color: green;
-  height: 200px;
-  width: 600px;
+.fruits{
+  background-color: rgb(24, 176, 13);
+  border: 3px, solid, black;
+  border-color: black;
+  width: 350px;
 }
 
-.two{
-  background-color: red;
-  height: 200px;
-  width: 30%;
+.dairy{
+  background-color: rgb(231, 230, 219);
+  border: 3px, solid, black;
+  border-color: black;
+  width: 350px;
 }
 
-.three{
-  background-color: blue;
-  height: 30vh;
-  width: 40vw;
+.snacks{
+  background-color: rgb(179, 125, 54);
+  border: 3px, solid, black;
+  border-color: black;
+  width: 350px;
+}
+
+.fruits h2{
+  background-color: white;
+}
+
+.dairy h2{
+  background-color: white;
+}
+
+.snacks h2{
+  background-color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
 }
