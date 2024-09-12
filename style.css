@@ -12,12 +12,6 @@ body {
   background-color: #f8f9fa;
 }
 
-h1{
-  color: rgb(176, 9, 9);
-  font-family: solid, copperplate, fantasy;
-  transition: 0.20s;
-}
-
 h1:hover{
   text-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
